@@ -1,10 +1,70 @@
 @charset "UTF-8";
 
 *{
-  font-family: "游ゴシック";
+  font-family: "游ゴシック体", YuGothic;
 }
 
 .container{
   width: 1152px;
   margin: 0 auto;
+}
+
+header{
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  line-height: 150px;
+  display: flex;
+  list-style: none;
+}
+
+li{
+  margin-right: 20px;
+}
+
+main{
+  height: 500px;
+  position: relative;
+}
+
+.logo{
+ position: absolute;
+ top: -121px;
+ left: -121px;
+ z-index: 1;
+}
+
+.toppic{
+  width: 1152px;
+  position: absolute;
+}
+
+.visualt{
+  position: absolute;
+  top: 292px;
+  left: 718px;
+}
+
+.mtext{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-family: "游ゴシック";
+  font-weight: 100;
+}
+
+.textbox{
+  height: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.mtext{
+  position: absolute;
+  top: 0;
+  left: -100px;
 }
