@@ -12,12 +12,12 @@
 header{
   height: 180px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 nav{
-  line-height: 180px;
   display: flex;
+  line-height: 180px;
   list-style: none;
   margin-right: 10px;
 }
