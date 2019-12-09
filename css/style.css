@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+*{
+  font-family: "游ゴシック";
+}
+
 .container{
   width: 1152px;
   margin: 0 auto;
