@@ -10,19 +10,26 @@
 }
 
 header{
-  height: 150px;
+  height: 180px;
   display: flex;
   justify-content: space-between;
 }
 
 nav{
-  line-height: 150px;
+  line-height: 180px;
   display: flex;
   list-style: none;
+  margin-right: 10px;
 }
 
 li{
-  margin-right: 20px;
+  margin-right: 40px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
 
 main{
@@ -61,6 +68,7 @@ main{
   position: relative;
   top: 0;
   left: 0;
+  margin-bottom: 100px;
 }
 
 .mtext{
