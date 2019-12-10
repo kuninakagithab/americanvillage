@@ -107,9 +107,8 @@ aside{
   margin-bottom: 30%;
 }
 
-.description p:nth-child(2){
-  margin-bottom: 30%;
-}
+
+
 
 .readmore{
   display: flex;
