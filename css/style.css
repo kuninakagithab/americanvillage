@@ -76,6 +76,11 @@ main{
   top: 0;
   left: -100px;
 }
+
+br{
+  display: none;
+}
+
 h1{
   font-size: 30px;
   text-align: center;
@@ -93,6 +98,7 @@ aside{
   display: flex;
   flex-direction: column;
   width: 30%;
+  height: 400px;
   margin-bottom: 10%;
 }
 
@@ -100,15 +106,19 @@ aside{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 2% 0 20% 2%;
-  line-height: 40px;
+  margin: 2% 0 25% 2%;
+  justify-content: flex-start;
+}
 
+.description p{
+  margin-bottom: 3%;
 }
 
 .readmore{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-end;
 }
 
 footer{
@@ -124,4 +134,70 @@ footer{
 footer>p{
   font-size: 20px;
   color: white;
+}
+
+@media screen and (max-width: 767px){
+  .container{
+    width: 100%;
+  }
+
+  nav{
+    display: none;
+  }
+
+  main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header{
+    display: none;
+  }
+
+  .logo{
+    position: static;
+    width: 30%;
+    margin: 30px auto;
+   }
+   
+   .toppic{
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 500px;
+     margin-bottom: 20px;
+   }
+   
+   .visualt{
+     display: none;
+   }
+
+   main::after{
+     content: url("../img/visual_text_sp.png");
+     position: absolute;
+     top: 320px;
+     left: 30px;
+   }
+
+   .mtext{
+     position: static;
+     text-align: center;
+     display: none;
+     display: block;
+   }
+
+   br{
+     display: block;
+   }
+
+  .textbox{
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
 }
